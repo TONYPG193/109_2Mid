@@ -25,7 +25,7 @@
             <asp:RadioButton ID="rbl_Res" runat="server" GroupName="PG" Text="否" AutoPostBack="True" Checked="True" OnCheckedChanged ="RadioButton1_CheckedChanged" /><br />
             <asp:RadioButton ID="RadioButton2" runat="server" GroupName="PG" Text="是" AutoPostBack="True" OnCheckedChanged ="RadioButton2_CheckedChanged" /><br />
             <asp:TextBox ID="tb_Des" runat="server" Visible="False" Width="400px"></asp:TextBox><br />
-            <asp:Button ID="btn_Sub" runat="server" Text="送出" Height="23px" OnClick="btn_Sub_Click" Width="34px" /><br />
+            <asp:Button ID="btn_Sub" runat="server" Text="送出" Height="23px" OnClick="btn_Sub_Click" Width="52px" /><br />
             <asp:Label ID="lb_Msg" runat="server"></asp:Label>
 
         </div>

@@ -17,15 +17,15 @@
             <asp:Label ID="Label2" runat="server" Text="密碼" Font-Size="X-Large"></asp:Label>
             <asp:TextBox ID="tb_pass" runat="server" Height="15px" TextMode="Password" Width="200px"></asp:TextBox>
             <br />
-            <asp:Label ID="Label3" runat="server" Font-Size="X-Large" Text="興趣"></asp:Label>
-        &nbsp;<asp:CheckBox ID="CheckBox1" runat="server" Text="看書" OnCheckedChanged ="CheckBox1_CheckedChanged" GroupName="rbg_Interest" />
-            <asp:CheckBox ID="CheckBox2" runat="server" Text="打電動" OnCheckedChanged ="CheckBox2_CheckedChanged" GroupName="rbg_Interest"/>
-            <asp:CheckBox ID="CheckBox3" runat="server" Text="其他" OnCheckedChanged ="CheckBox3_CheckedChanged" GroupName="rbg_Interest" />
+            <asp:Label ID="Label3" runat="server" Font-Size="X-Large" Text="興趣(單選)"></asp:Label>
+        &nbsp;<asp:CheckBox ID="CheckBox1" runat="server" Text="看書" OnCheckedChanged ="CheckBox1_CheckedChanged" GroupName="rbg_Interest" Font-Size="X-Large" />
+            <asp:CheckBox ID="CheckBox2" runat="server" Text="打電動" OnCheckedChanged ="CheckBox2_CheckedChanged" GroupName="rbg_Interest" Font-Size="X-Large"/>
+            <asp:CheckBox ID="CheckBox3" runat="server" Text="其他" OnCheckedChanged ="CheckBox3_CheckedChanged" GroupName="rbg_Interest" Font-Size="X-Large" />
             <br />
             <asp:Label ID="Label4" runat="server" Font-Size="X-Large" Text="其他連結"></asp:Label>
             <asp:HyperLink ID="HyperLink1" runat="server" ImageHeight="30px" ImageUrl="aws-brands.svg" ImageWidth="80px" NavigateUrl="https://aws.amazon.com/tw/">HyperLink</asp:HyperLink>
             <br />
-            <asp:Button ID="bt_Next" runat="server" Text="Button" Height="30px" PostBackUrl="Sample1Com.aspx" Width="80px" />
+            <asp:Button ID="bt_Next" runat="server" Text="送出" Height="30px" PostBackUrl="Sample1Com.aspx" Width="80px" />
         </div>
     </form>
 </body>
