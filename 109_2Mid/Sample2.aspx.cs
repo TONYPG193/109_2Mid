@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace _2021MidSample
+namespace _109_2Mid
 {
 	public partial class Sample2 : System.Web.UI.Page
 	{
@@ -33,7 +33,7 @@ namespace _2021MidSample
 
 		protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
 		{
-			if (RadioButton1.Checked == true)
+			if (rbl_Res.Checked == true)
 			{
 				tb_Des.Visible = false;
 			}

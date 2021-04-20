@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sample2.aspx.cs" Inherits="_2021MidSample.Sample2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sample2.aspx.cs" Inherits="_109_2Mid.Sample2" %>
 
 <!DOCTYPE html>
 
@@ -22,8 +22,8 @@
             <asp:Label ID="Label1" runat="server" Text="姓名"></asp:Label>
             <asp:TextBox ID="tb_Name" runat="server"></asp:TextBox><br />
             <asp:Label ID="Label2" runat="server" Text="其他"></asp:Label><br />
-            <asp:RadioButton ID="RadioButton1" runat="server" GroupName="aaa" Text="否" AutoPostBack="True" Checked="True" OnCheckedChanged ="RadioButton1_CheckedChanged" /><br />
-            <asp:RadioButton ID="RadioButton2" runat="server" GroupName="aaa" Text="是" AutoPostBack="True" OnCheckedChanged ="RadioButton2_CheckedChanged" /><br />
+            <asp:RadioButton ID="rbl_Res" runat="server" GroupName="PG" Text="否" AutoPostBack="True" Checked="True" OnCheckedChanged ="RadioButton1_CheckedChanged" /><br />
+            <asp:RadioButton ID="RadioButton2" runat="server" GroupName="PG" Text="是" AutoPostBack="True" OnCheckedChanged ="RadioButton2_CheckedChanged" /><br />
             <asp:TextBox ID="tb_Des" runat="server" Visible="False" Width="400px"></asp:TextBox><br />
             <asp:Button ID="btn_Sub" runat="server" Text="送出" Height="23px" OnClick="btn_Sub_Click" Width="34px" /><br />
             <asp:Label ID="lb_Msg" runat="server"></asp:Label>
